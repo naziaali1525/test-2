@@ -1,0 +1,70 @@
+body{
+    background-color: #a9d1da;
+}
+.btn{
+    font-family: 'Arvo', serif;
+    
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 141px auto;
+}
+.heading{
+    padding: 24px;
+}
+.card{
+    width: 77%;
+}
+.btn{
+    background-image: url('images/keyboard-key.png');
+    background-size: cover;
+    border-style: none;
+    outline-style: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45px;
+    height: 40px;
+}
+.space-btn {
+    background-image: url('images/space-bar-key.png');    
+    background-size: cover;
+    border-style: none;
+    outline-style: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 85px;
+    height: 34px;
+
+
+}
+.keyboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.key{
+    padding: 3px;
+}
+@media screen and (max-width: 400px){
+    .keyboard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        align-items: center;
+        margin: 141px auto;
+    }
+}
